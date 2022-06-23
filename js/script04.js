@@ -20,13 +20,13 @@ function update_message(counter) {
 	}else if (counter === 3){
 		text_frame.innerHTML = "Boom! Zap! Zoing! HEEYA!";
 	}else if (counter === 4){
-		picture_frame.src = "media/shen_comix/done.png";
+		picture_frame.src = "media/shen_comix/done.PNG";
 		picture_frame.style = "transform: scale(1.2, 1.2)";
 		text_frame.innerHTML = "You(the user): We Won!";
 	}else if (counter === 5){
 		text_frame.innerHTML = "You(the user): We Won!<br><br>SecretiveManNowInTShirt: But at what cost?";
 	}else if (counter === 6){
-		picture_frame.src = "media/shen_comix/done.png";
+		picture_frame.src = "media/shen_comix/done.PNG";
 		picture_frame.style = "transform: scale(1.2, 1.2)";
 		text_frame.innerHTML = "You(the user): We Won!<br><br>SecretiveManNowInTShirt: But at what cost?<br><button onclick='nextStep()' type='click'> About Me Page </button>";
 	}

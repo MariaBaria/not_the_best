@@ -16,7 +16,7 @@ function update_message(counter) {
 	if (counter === 1){
 		text_frame.innerHTML = "FarmDude: HAHA I'm just a person";
 	} else if (counter === 2){
-		picture_frame.src = "media/shen_comix/4.png";
+		picture_frame.src = "media/shen_comix/4.PNG";
 		text_frame.innerHTML = "FarmDude: HAHA I'm just a person<br><br>You(the user, in Trump voice): Sad";
 	}else if (counter === 3){
 		
