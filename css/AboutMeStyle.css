@@ -1,0 +1,89 @@
+<style>
+	
+/* styling the header */
+
+/* color the header */
+.header {
+  background-color: AliceBlue;
+}
+
+/* Section Links Style*/
+.header a {
+  text-align: center;
+  color: DarkSlateGrey;
+  font-size: 20px;
+  font: sans-serif;
+}
+
+/* Float alignment */
+#sections {
+  float: right;
+}
+
+
+/* styling the text boxes */
+
+.text-box p {
+  text-align: left;
+  color: Black;
+  font-size: 16px;
+  font: Ariel;
+}
+
+
+/* styling the tables */
+
+.list table th {
+  text-align: left;
+  color: Black;
+  font-size: 16px;
+  font: Ariel;
+  text-transform: uppercase
+}
+
+.list table td {
+  text-align: center;
+  color: Black;
+  font-size: 16px;
+  font: Ariel;
+  text-transform: capitalize
+}
+
+.list table td.topic-img {
+  width: 120px;
+  height: 50%;
+  padding: 2px;
+}
+
+
+#IMOD {
+  transform: scale(0.7, 0.7);
+}
+
+/* styling the Cessna */
+
+#Cessna {
+  padding-left: 80px;
+  transform: scale(0.9, 0.9);
+}
+
+/* styling the Profile */
+
+#profile-pic {
+  padding-left: 20px;
+  padding-top: 40px;
+  transform: scale(0.9, 0.9);
+}
+
+/* styling width */
+article {
+	max-width: 800px;
+}
+
+table {
+	max-width: 800px;
+}
+
+
+	
+</style>
